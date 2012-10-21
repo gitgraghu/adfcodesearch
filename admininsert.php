@@ -18,11 +18,19 @@
 	</div>
 	<div class="formelement">
 	Type:
-	<input type="text" name="type"></input>
+	<select name="type">
+    <option value="CODE">Code</option>
+    <option value="VIDEO">Video</option>
+    <option value="BLOG">Blog</option>
+    </select>
 	</div>
 	<div class="formelement">
 	Tags:
 	<input type="text" name="tags" size="100"></input>
+	</div>
+	<div class="formelement">
+	Components:
+	<input type="text" name="components" size="100"></input>
 	</div>
 	<input type="submit" name="submit" />
 	</form>
